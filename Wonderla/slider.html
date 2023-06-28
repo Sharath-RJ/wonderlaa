@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="splide-4.1.3\dist\css\splide.min.css">
+  <style>
+.custom-blur-slide{
+  width: 95%;
+  height: 700px;
+  background-color: red;
+}
+
+.custom-blur-slide img{
+  width: 98%;
+  height: 600px;
+}
+  </style>
+
+   
+</head>
+<body>
+<div class="splide custom-blur-slide" role="group" aria-label="Splide Basic HTML Example">
+  
+  <div class="splide__track">
+    <div class="splide__list">
+        <div class="splide__slide slide-custom">
+          <img src="images/Equinox_at_Wonderla_Kochi.avif" alt="">
+        </div>
+        <div class="splide__slide slide-custom">
+          <img src="images/Equinox_at_Wonderla_Kochi.avif" alt="">
+        </div>
+        <div class="splide__slide slide-custom">
+          <img src="images/Equinox_at_Wonderla_Kochi.avif" alt="">
+        </div>
+        <div class="splide__slide slide-custom">
+          <img src="images/Equinox_at_Wonderla_Kochi.avif" alt="">
+        </div>
+        <div class="splide__slide slide-custom">
+          <img src="images/Equinox_at_Wonderla_Kochi.avif" alt="">
+        </div>
+        <div class="splide__slide slide-custom">
+          <img src="images/Equinox_at_Wonderla_Kochi.avif" alt="">
+        </div>
+      </div>
+  </div>
+</div>
+<script src="splide-4.1.3\dist\js\splide.min.js"></script>
+<script>
+    
+  
+      var splide = new Splide('.splide', {
+        type: 'loop',
+        padding: '10rem',
+        focus :'center',
+        autoplay: true,
+      });
+
+      splide.mount();
+</script>
+
+
+</body>
+</html>
